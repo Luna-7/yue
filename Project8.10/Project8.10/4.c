@@ -1,12 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-/*#include <string.h>*///Ìá¹©strlen£¨£©º¯ÊıÔ­ĞÍ
-//#define DENSITY 62.4//ÈËÌåÃÜ¶È£¨°õ¡¢Á¢·½Ó¢³ß£©
+/*#include <string.h>*///æä¾›strlenï¼ˆï¼‰å‡½æ•°åŸå‹
+//#define DENSITY 62.4//äººä½“å¯†åº¦ï¼ˆç£…ã€ç«‹æ–¹è‹±å°ºï¼‰
 //int main()
 //{
 //	float weight, volume;
 //	int size, letters;
-//	char name[40];//nameÊÇÒ»¸ö¿ÉÈİÄÉ40¸ö×Ö·ûµÄÊı×é
+//	char name[40];//nameæ˜¯ä¸€ä¸ªå¯å®¹çº³40ä¸ªå­—ç¬¦çš„æ•°ç»„
 //
 //	printf("Hi! What's your firs name?\n");
 //	scanf("%s", name);
@@ -50,9 +50,9 @@
 //	return 0;
 //}
 
-//Ê¹ÓÃlimit.hºÍfloatÍ·ÎÄ¼şÖĞ¶¨ÒåµÄÃ÷Ê¾³£Á¿
-#include<limits.h>//ÕûĞÍÏŞÖÆ
-#include<float.h>//¸¡µãĞÍÏŞÖÆ
+//ä½¿ç”¨limit.hå’Œfloatå¤´æ–‡ä»¶ä¸­å®šä¹‰çš„æ˜ç¤ºå¸¸é‡
+#include<limits.h>//æ•´å‹é™åˆ¶
+#include<float.h>//æµ®ç‚¹å‹é™åˆ¶
 int main()
 {
 	printf("Some number limits for this stystem:\n");
@@ -66,3 +66,84 @@ int main()
 
 	return 0;
 }
+//å­—æ®µå®½åº¦
+//#define PAGES 959
+//int main()
+//{
+//	printf("*%d*\n", PAGES);
+//	printf("*%2d*\n", PAGES);
+//	printf("*%10d*\n", PAGES);
+//	printf("*%-10d*\n",PAGES);
+//
+//	return 0;
+//}
+
+//æµ®ç‚¹å‹ä¿®é¥°ç¬¦çš„ç»„åˆ
+//int main()
+//{
+//	const double RENT = 3825.99;//constå˜é‡
+//
+//	printf("*%f*\n", RENT);
+//	printf("*%e*\n", RENT);
+//	printf("*%4.2f*\n", RENT);
+//	printf("*%3.1f*\n", RENT);
+//	printf("*%10.3f*\n", RENT); 
+//	printf("*%10.3E*\n", RENT);
+//	printf("*%+4.2f*\n", RENT);
+//	printf("*%010.2f*\n", RENT);
+//
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	char NAME [40];
+//	double cash = 77.87;
+//	scanf("%s", &NAME);
+//	printf("The %s family just may be %c%.1f dollars richer!\n",NAME,'$',cash);
+//
+//		return 0;
+//}
+
+//æ‰“å°è¾ƒé•¿çš„å­—ç¬¦ä¸²
+//int  main()
+//{
+//	printf("Here's one way to print  a");
+//	printf("long string.\n");//ç¬¬ä¸€ç§æ–¹æ³•
+//	printf("Here's another way to print  a  \
+//long string.\n");//ç¬¬äºŒç§æ–¹æ³•
+//	printf("Here's the newest way to print a"
+//		"long string.\n");//ç¬¬ä¸‰ç§æ–¹æ³•
+//	return 0;
+//}
+
+//int main()
+//{
+//	int  age;
+//	float  assets;
+//	char  pet[30];
+//
+//	printf("Enter your age, assets,and favourote pet.\n");
+//	scanf("%d %f ",&age,&assets);
+//	scanf("%s", pet);
+//	printf("%d  $%.2f %s\n", age, assets, pet);
+//		return 0;
+//}
+
+//int main()
+//{
+//	unsigned width,  precision;
+//	int number = 256;
+//	double weight = 242.5;
+//
+//
+//	printf("Enter a filed width:\n");
+//	scanf("%d", &width);
+//	printf("The number is :%d:\n", width, number);
+//	printf("Now enter a width and a precision:\n");
+//	scanf("%d %d", &width, &precision);
+//	printf("Weight = %*.*f\n", width,precision,weight);
+//	printf("Done!\n");
+//	return  0;
+//}
