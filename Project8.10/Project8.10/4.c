@@ -1,12 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS 1
+<<<<<<< HEAD
 //#include <stdio.h>
 /*#include <string.h>*///Ìá¹©strlen£¨£©º¯ÊıÔ­ĞÍ
 //#define DENSITY 62.4//ÈËÌåÃÜ¶È£¨°õ¡¢Á¢·½Ó¢³ß£©
+=======
+#include <stdio.h>
+/*#include <string.h>*///æä¾›strlenï¼ˆï¼‰å‡½æ•°åŸå‹
+//#define DENSITY 62.4//äººä½“å¯†åº¦ï¼ˆç£…ã€ç«‹æ–¹è‹±å°ºï¼‰
+>>>>>>> 5be1ea4b4e5905337b835cb3a4eb6f1f920b01d6
 //int main()
 //{
 //	float weight, volume;
 //	int size, letters;
-//	char name[40];//nameÊÇÒ»¸ö¿ÉÈİÄÉ40¸ö×Ö·ûµÄÊı×é
+//	char name[40];//nameæ˜¯ä¸€ä¸ªå¯å®¹çº³40ä¸ªå­—ç¬¦çš„æ•°ç»„
 //
 //	printf("Hi! What's your firs name?\n");
 //	scanf("%s", name);
@@ -51,6 +57,7 @@
 //	return 0;
 //}
 
+<<<<<<< HEAD
 ////Ê¹ÓÃlimit.hºÍfloatÍ·ÎÄ¼şÖĞ¶¨ÒåµÄÃ÷Ê¾³£Á¿
 //#include<limits.h>//ÕûĞÍÏŞÖÆ
 //#include<float.h>//¸¡µãĞÍÏŞÖÆ
@@ -69,6 +76,25 @@
 //}
 
 //×Ö¶Î¿í¶È
+=======
+//ä½¿ç”¨limit.hå’Œfloatå¤´æ–‡ä»¶ä¸­å®šä¹‰çš„æ˜ç¤ºå¸¸é‡
+#include<limits.h>//æ•´å‹é™åˆ¶
+#include<float.h>//æµ®ç‚¹å‹é™åˆ¶
+int main()
+{
+	printf("Some number limits for this stystem:\n");
+	printf("Biggest int: %d\n", INT_MAX);
+	printf("Smallest longlong: %lld\n", LLONG_MIN);
+	printf("One byte = %d bits on this system.\n", CHAR_BIT);
+	printf("Largest double: %e\n", DBL_MAX);
+	printf("Smalleat normal float: %e\n",FLT_MIN);
+	printf("float precision = %d digits\n", FLT_DIG);
+	printf("float epsilon = %e\n", FLT_EPSILON);
+
+	return 0;
+}
+//å­—æ®µå®½åº¦
+>>>>>>> 5be1ea4b4e5905337b835cb3a4eb6f1f920b01d6
 //#define PAGES 959
 //int main()
 //{
@@ -80,10 +106,17 @@
 //	return 0;
 //}
 
+<<<<<<< HEAD
 //¸¡µãĞÍĞŞÊÎ·ûµÄ×éºÏ
 //int main()
 //{
 //	const double RENT = 3825.99;//const±äÁ¿
+=======
+//æµ®ç‚¹å‹ä¿®é¥°ç¬¦çš„ç»„åˆ
+//int main()
+//{
+//	const double RENT = 3825.99;//constå˜é‡
+>>>>>>> 5be1ea4b4e5905337b835cb3a4eb6f1f920b01d6
 //
 //	printf("*%f*\n", RENT);
 //	printf("*%e*\n", RENT);
@@ -108,6 +141,7 @@
 //		return 0;
 //}
 
+<<<<<<< HEAD
 //´òÓ¡½Ï³¤µÄ×Ö·û´®
 //int  main()
 //{
@@ -117,6 +151,17 @@
 //long string.\n");//µÚ¶şÖÖ·½·¨
 //	printf("Here's the newest way to print a"
 //		"long string.\n");//µÚÈıÖÖ·½·¨
+=======
+//æ‰“å°è¾ƒé•¿çš„å­—ç¬¦ä¸²
+//int  main()
+//{
+//	printf("Here's one way to print  a");
+//	printf("long string.\n");//ç¬¬ä¸€ç§æ–¹æ³•
+//	printf("Here's another way to print  a  \
+//long string.\n");//ç¬¬äºŒç§æ–¹æ³•
+//	printf("Here's the newest way to print a"
+//		"long string.\n");//ç¬¬ä¸‰ç§æ–¹æ³•
+>>>>>>> 5be1ea4b4e5905337b835cb3a4eb6f1f920b01d6
 //	return 0;
 //}
 
@@ -149,6 +194,7 @@
 //	printf("Done!\n");
 //	return  0;
 //}
+<<<<<<< HEAD
 
 //#define BOOK "War and peace"
 //int main()
@@ -272,3 +318,5 @@
 //	printf("rise/kilometers %.1f", d);
 //	return 0;
 //}
+=======
+>>>>>>> 5be1ea4b4e5905337b835cb3a4eb6f1f920b01d6
