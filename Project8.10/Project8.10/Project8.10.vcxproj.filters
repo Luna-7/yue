@@ -27,5 +27,14 @@
     <ClCompile Include="4.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

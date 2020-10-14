@@ -1,7 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
-//5.1æŠŠé‹ç è½¬æ¢ä¸ºè‹±å¯¸
-//#define ADJUST  7.31//å­—ç¬¦å¸¸é‡
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
+//5.1°ÑĞ¬Âë×ª»»ÎªÓ¢´ç
+//#define ADJUST  7.31//×Ö·û³£Á¿
 //int main()
 //{
 //	const double SCALE = 0.333;
@@ -14,7 +14,7 @@
 // 	return 0;
 //}
 
-//è®¡ç®—å¤šä¸ªä¸åŒé‹ç å¯¹åº”çš„è„šé•¿
+//¼ÆËã¶à¸ö²»Í¬Ğ¬Âë¶ÔÓ¦µÄ½Å³¤
 //#define ADJUST 7.31
 //int main()
 //{
@@ -23,17 +23,17 @@
 //
 //	printf("Shoe size (men's)    foot length\n");
 //	shoe = 3.0;
-//	while (shoe < 18.5);//whileå¾ªç¯å¼€å§‹ 
-//	{//å—å¼€å§‹
+//	while (shoe < 18.5);//whileÑ­»·¿ªÊ¼ 
+//	{//¿é¿ªÊ¼
 //		foot = SCALE * shoe + ADJUST;
 //		printf("%10.1f   %15.2f inches\n", shoe, foot);
 //		shoe = shoe + 1.0;
-//	}//å—ç»“æŸ
+//	}//¿é½áÊø
 //	printf("If the shoe fits, wear it.\n");
 //	return 0;
 //}
 
-//è®¡ç®—1~20çš„å¹³æ–¹
+//¼ÆËã1~20µÄÆ½·½
 //int main()
 //{
 //	int num = 1;
@@ -46,11 +46,11 @@
 //	return 0;
 //}
 
-//æŒ‡æ•°å¢é•¿
-//#define SQUARES 64 //æ£‹ç›˜ä¸­çš„æ–¹æ ¼æ•°
+//Ö¸ÊıÔö³¤
+//#define SQUARES 64 //ÆåÅÌÖĞµÄ·½¸ñÊı
 //int main()
 //{
-//	const double CROP = 2E16; //ä¸–ç•Œå°éº¦å¹´äº§è°·ç²’æ•°
+//	const double CROP = 2E16; //ÊÀ½çĞ¡ÂóÄê²ú¹ÈÁ£Êı
 //	double current, total;
 //	 
 //	int  count = 1;
@@ -59,13 +59,13 @@
 //	printf("fraction of \n");
 //	printf("              added           grains    ");
 //	printf("world total\n");
-//	total = current = 1.0;//ä»ä¸€é¢—è°·ç²’å¼€å§‹
+//	total = current = 1.0;//´ÓÒ»¿Å¹ÈÁ£¿ªÊ¼
 //	printf("%4d  %13.2e  %12.2e\n", count, current, total, total / CROP);
 //	while (count < SQUARES)
 //	{
 //		count = count + 1;
-//		current = 2.0 * current;//ä¸‹ä¸€ä¸ªæ–¹æ ¼è°·ç²’ç¿»å€
-//		total = total + current;//æ›´æ–°æ€»æ•°
+//		current = 2.0 * current;//ÏÂÒ»¸ö·½¸ñ¹ÈÁ£·­±¶
+//		total = total + current;//¸üĞÂ×ÜÊı
 //		printf("%4d %13.2e %12.2e %12.2e\n", count, current, total, total / CROP);
 //
 //	}
@@ -74,7 +74,7 @@
 //	return 0;
 //}
 
-//ä¼˜å…ˆçº§æµ‹è¯•
+//ÓÅÏÈ¼¶²âÊÔ
 //int main()
 //{
 //	int top, score;
@@ -85,7 +85,7 @@
 //	return 0;
 //}
 
-//ä½¿ç”¨sizeofè¿ç®—ç¬¦
+//Ê¹ÓÃsizeofÔËËã·û
 //int main()
 //{
 //	int n = 0;
@@ -96,19 +96,19 @@
 //	return 0;
 //}
 
-//æŠŠç§’æ•°è½¬æ¢ä¸ºåˆ†å’Œç§’
-//#define SEC_PER_MIN 60//ä¸€åˆ†é’Ÿ60ç§’
+//°ÑÃëÊı×ª»»Îª·ÖºÍÃë
+//#define SEC_PER_MIN 60//Ò»·ÖÖÓ60Ãë
 //int main()
 //{
 //	int sec, min, left;
 //
 //	printf("Convert seconds to minutes and seconds!\n");
 //	printf("Enter the number of seconds (<=0 to quit):\n");
-//	scanf("%d", &sec);//è¯»å–ç§’æ•°
+//	scanf("%d", &sec);//¶ÁÈ¡ÃëÊı
 //	while (sec > 0)
 //	{
-//		min = sec / SEC_PER_MIN; //æˆªæ–­åˆ†é’Ÿæ•°
-//		left = sec % SEC_PER_MIN;//å‰©ä¸‹çš„ç§’æ•°
+//		min = sec / SEC_PER_MIN; //½Ø¶Ï·ÖÖÓÊı
+//		left = sec % SEC_PER_MIN;//Ê£ÏÂµÄÃëÊı
 //		printf("%d seconds is%d minutes,%d seconds.\n", sec, min, left);
 //		printf("Enter next value (<=0 to quit):\n");
 //		scanf("%d", &sec);
@@ -117,7 +117,7 @@
 //	return 0;
 //}
 
-//é€’å¢ï¼šå‰ç¼€å’Œåç¼€
+//µİÔö£ºÇ°×ººÍºó×º
 //int main()
 //{
 //	int ultra = 0, super = 0;
@@ -131,14 +131,14 @@
 //	return 0;
 //}
 
-//å‰ç¼€å’Œåç¼€
+//Ç°×ººÍºó×º
 //int main()
 //{
 //	int a = 1, b = 1;
 //	int a_post, pre_b;
 //
-//	a_post = a++;//åç¼€é€’å¢
-//	pre_b = ++b;//å‰ç¼€é€’å¢
+//	a_post = a++;//ºó×ºµİÔö
+//	pre_b = ++b;//Ç°×ºµİÔö
 //
 //	printf("a   a_post  b   pre_b\n");
 //	printf("%1d %5d %5d  %5d\n", a, a_post, b, pre_b);
@@ -146,7 +146,7 @@
 //	return 0;
 //}
 
-//é€’å‡è¿ç®—ç¬¦
+//µİ¼õÔËËã·û
 //#define MAX 100
 //int main()
 //{
@@ -163,7 +163,7 @@
 //	return 0;
 //}
 
-//å¤åˆè¯­å—
+//¸´ºÏÓï¿é
 //int main()
 //{
 //	int index = 0;
@@ -176,7 +176,7 @@
 //	return 0;
 //}
 
-//è‡ªåŠ¨ç±»å‹è½¬æ¢
+//×Ô¶¯ÀàĞÍ×ª»»
 //int main()
 //{
 //	char ch;
@@ -197,40 +197,40 @@
 //	return 0;
 //}
 
-//å®šä¹‰ä¸€ä¸ªå¸¦ä¸€ä¸ªå‚æ•°çš„å‡½æ•°
-// pound(int n);//ANSIå‡½æ•°åŸå‹è¯´æ˜
+//¶¨ÒåÒ»¸ö´øÒ»¸ö²ÎÊıµÄº¯Êı
+// pound(int n);//ANSIº¯ÊıÔ­ĞÍËµÃ÷
 //int main()
 //{
 //	int times = 5;
-//	char ch = '!';//ASCIIç æ˜¯33
+//	char ch = '!';//ASCIIÂëÊÇ33
 //	float f = 6.0;
 //
-//	pound(times);//intç±»å‹å‚æ•°
-//	pound(ch);//åŒpound((int)ch)
-//	pound(f);//åŒpound((int)f)
+//	pound(times);//intÀàĞÍ²ÎÊı
+//	pound(ch);//Í¬pound((int)ch)
+//	pound(f);//Í¬pound((int)f)
 //
 //	return 0;
 //}
 //
-//pound(int n)//ANSIé£æ ¼å‡½æ•°å¤´
-//{//è¡¨ç¤ºå‡½æ•°æ¥å—ä¸€ä¸ªintç±»å‹çš„å‚æ•°
+//pound(int n)//ANSI·ç¸ñº¯ÊıÍ·
+//{//±íÊ¾º¯Êı½ÓÊÜÒ»¸öintÀàĞÍµÄ²ÎÊı
 //	while (n-- > 0)
 //		printf("#");
 //	printf("\n");
 //}
 
 //5.16 running
-//const int S_PER_M = 60;//1åˆ†é’Ÿçš„ç§’æ•°
-//const int S_PER_H = 3600;//1å°æ—¶çš„ç§’æ•°
-//const double M_PER_K = 0.62137;//1å…¬é‡Œçš„è‹±é‡Œæ•°
+//const int S_PER_M = 60;//1·ÖÖÓµÄÃëÊı
+//const int S_PER_H = 3600;//1Ğ¡Ê±µÄÃëÊı
+//const double M_PER_K = 0.62137;//1¹«ÀïµÄÓ¢ÀïÊı
 //int main()
 //{
-//	double distk, distm;//è·‘è¿‡çš„è·ç¦»ï¼ˆåˆ†åˆ«ä»¥å…¬é‡Œå’Œè‹±é‡Œä¸ºå•ä½ï¼‰
-//	double rate;//å¹³å‡é€Ÿåº¦ï¼ˆä»¥è‹±é‡Œ/å°æ—¶ä¸ºå•ä½ï¼‰
-//	int min, sec;//è·‘æ­¥ç”¨æ—¶ï¼ˆä»¥åˆ†é’Ÿå’Œç§’ä¸ºå•ä½ï¼‰
-//	int time;//è·‘æ­¥ç”¨æ—¶ï¼ˆä»¥ç§’ä¸ºå•ä½ï¼‰
-//	double mtime;//è·‘1è‹±é‡Œéœ€è¦çš„æ—¶é—´ï¼Œä»¥ç§’ä¸ºå•ä½
-//	int mmin, msec;//è·‘1è‹±é‡Œéœ€è¦çš„æ—¶é—´ï¼Œä»¥åˆ†é’Ÿå’Œç§’ä¸ºå•ä½
+//	double distk, distm;//ÅÜ¹ıµÄ¾àÀë£¨·Ö±ğÒÔ¹«ÀïºÍÓ¢ÀïÎªµ¥Î»£©
+//	double rate;//Æ½¾ùËÙ¶È£¨ÒÔÓ¢Àï/Ğ¡Ê±Îªµ¥Î»£©
+//	int min, sec;//ÅÜ²½ÓÃÊ±£¨ÒÔ·ÖÖÓºÍÃëÎªµ¥Î»£©
+//	int time;//ÅÜ²½ÓÃÊ±£¨ÒÔÃëÎªµ¥Î»£©
+//	double mtime;//ÅÜ1Ó¢ÀïĞèÒªµÄÊ±¼ä£¬ÒÔÃëÎªµ¥Î»
+//	int mmin, msec;//ÅÜ1Ó¢ÀïĞèÒªµÄÊ±¼ä£¬ÒÔ·ÖÖÓºÍÃëÎªµ¥Î»
 //
 //	printf("This program converts your time for a metric race\n");
 //	printf("to a time for running a mile and to your average\n");
@@ -243,12 +243,12 @@
 //	printf("Now enter the seconds,\n");
 //	scanf("%d", &sec);
 //
-//	time = S_PER_M * min + sec;//æŠŠæ—¶é—´è½¬æ¢æˆç§’
-//	distm = M_PER_K * distk;//æŠŠå…¬é‡Œè½¬æ¢æˆè‹±é‡Œ
-//	rate = distm / time * S_PER_H;//è‹±é‡Œ/ç§’*ç§’/å°æ—¶=è‹±é‡Œ/å°æ—¶
-//	mtime = (double)time / distm;//æ—¶é—´/è·ç¦» = è·‘1è‹±é‡Œæ‰€ç”¨çš„æ—¶é—´
-//	mmin = (int)mtime / S_PER_M;//æ±‚å‡ºåˆ†é’Ÿæ•°
-//	msec = (int)mtime % S_PER_M;//æ±‚å‡ºå‰©ä½™çš„ç§’æ•°
+//	time = S_PER_M * min + sec;//°ÑÊ±¼ä×ª»»³ÉÃë
+//	distm = M_PER_K * distk;//°Ñ¹«Àï×ª»»³ÉÓ¢Àï
+//	rate = distm / time * S_PER_H;//Ó¢Àï/Ãë*Ãë/Ğ¡Ê±=Ó¢Àï/Ğ¡Ê±
+//	mtime = (double)time / distm;//Ê±¼ä/¾àÀë = ÅÜ1Ó¢ÀïËùÓÃµÄÊ±¼ä
+//	mmin = (int)mtime / S_PER_M;//Çó³ö·ÖÖÓÊı
+//	msec = (int)mtime % S_PER_M;//Çó³öÊ£ÓàµÄÃëÊı
 //
 //	printf("You can %1.2f km(%1.2f miles) in %d min, %d sec.\n"
 //		,distk,distm,min,sec);
@@ -258,7 +258,7 @@
 //	return 0;
 //}
 
-//ç»ƒä¹ é¢˜9
+//Á·Ï°Ìâ9
 //#define G 103
 //int main()
 //{
@@ -270,7 +270,7 @@
 //		return 0;
 //}
 
-//ç¼–ç¨‹ç»ƒä¹ 1
+//±à³ÌÁ·Ï°1
 //#define M_PER_H 60
 //int main()
 //{
@@ -286,12 +286,12 @@
 //	return 0;
 //}
 
-//ç¼–ç¨‹ç»ƒä¹ 2
+//±à³ÌÁ·Ï°2
 //int main()
 //{
 //	int a = 0;
 //	int input = 0;
-//	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°");
+//	printf("ÇëÊäÈëÒ»¸öÕûÊı");
 //	scanf("%d", &input);
 //	while (a ++<11)
 //	{
@@ -302,51 +302,51 @@
 //	return 0;
 //}
 
-//ç¼–ç¨‹ç»ƒä¹ 3
-//#define W_PER_D 7//ä¸€å‘¨ä¸ƒå¤©
+//±à³ÌÁ·Ï°3
+//#define W_PER_D 7//Ò»ÖÜÆßÌì
 //int main()
 //{
 //	int day1 = 0;
 //	int day2 = 0;
 //	int week = 0;
 //
-//	printf("è¯·è¾“å…¥å¤©æ•°");
+//	printf("ÇëÊäÈëÌìÊı");
 //	scanf("%d", &day1);
 //	while (day1> 0)
 //	{
 //		week = day1 / W_PER_D;
 //		day2 = week % day1;
 //		printf("%d days are %d weels, %d days", day1, week, day2);
-//		printf("\nè¯·è¾“å…¥å¤©æ•°");
+//		printf("\nÇëÊäÈëÌìÊı");
 //		scanf("%d",&day1);
 //	}
 //	printf("\ndone!");
 //	return 0;
 //}
 
-//ç¼–ç¨‹ç»ƒä¹ 5ã€6
+//±à³ÌÁ·Ï°5¡¢6
 //int main()
 //{
 //	int count = 0;
 //	int sum = 0;
 //	int days = 0;
-//	printf("è¾“å…¥ä½ æƒ³è¦è®¡ç®—çš„å¤©æ•°\n");
+//	printf("ÊäÈëÄãÏëÒª¼ÆËãµÄÌìÊı\n");
 //	scanf("%d",&days);
 //
 //	while (count++ < days)
 //		sum = count *count + sum;
-//	printf("%då¤©ä¸€å…±èµšäº†%då…ƒ", days, sum);
+//	printf("%dÌìÒ»¹²×¬ÁË%dÔª", days, sum);
 //	return 0;
 //}
-//ç¼–ç¨‹ç»ƒä¹ 7
+//±à³ÌÁ·Ï°7
 
-////ç¼–ç¨‹ç»ƒä¹ 9
+////±à³ÌÁ·Ï°9
 //int Temperatures()
 //int main()
 //{
-//double input;//åæ°æ¸©åº¦
+//double input;//»ªÊÏÎÂ¶È
 //	
-//	printf("è¯·è¾“å…¥åæ°æ‘„æ°åº¦\n");
+//	printf("ÇëÊäÈë»ªÊÏÉãÊÏ¶È\n");
 //	while (scanf("%1f", &input)==1)
 //	{
 //		Temperatures(input);
@@ -359,8 +359,8 @@
 //int Temperatures()
 //{
 //	const c = 273.16;
-//	double Celsius;//æ‘„æ°æ¸©åº¦
-//	double open;//å¼€å¼æ¸©åº¦
+//	double Celsius;//ÉãÊÏÎÂ¶È
+//	double open;//¿ªÊ½ÎÂ¶È
 //
 //	Celsius = 5.0 / 9.0 *(input - 32.0);
 //	open = Celsius + c;

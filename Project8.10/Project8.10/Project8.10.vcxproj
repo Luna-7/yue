@@ -15,6 +15,9 @@
     <ClCompile Include="2.c" />
     <ClCompile Include="3.c" />
     <ClCompile Include="4.c" />
+    <ClCompile Include="5.c" />
+    <ClCompile Include="6.c" />
+    <ClCompile Include="7.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{650C0EFD-5018-460A-9E2B-43EEC4015ED8}</ProjectGuid>
